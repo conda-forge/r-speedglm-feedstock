@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
 
   rpaths:
     - lib/R/lib/
@@ -40,13 +40,11 @@ test:
 about:
   home: https://CRAN.R-project.org/package=speedglm
   license: GPL
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Fitting linear models and generalized linear models to large data sets by updating
     algorithms.
   license_family: GPL
 
 extra:
   recipe-maintainers:
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
+    - conda-forge/r
