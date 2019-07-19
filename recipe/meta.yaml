@@ -40,6 +40,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=speedglm
   license: GPL
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Fitting linear models and generalized linear models to large data sets by updating
     algorithms.
   license_family: GPL
@@ -47,7 +48,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
