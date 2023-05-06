@@ -1,11 +1,11 @@
-About r-speedglm
-================
+About r-speedglm-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-speedglm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=speedglm
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-speedglm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fitting linear models and generalized linear models to large data sets by updating algorithms.
 
