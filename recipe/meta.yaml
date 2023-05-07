@@ -26,10 +26,12 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-biglm
     - r-mass
     - r-matrix
   run:
     - r-base
+    - r-biglm
     - r-mass
     - r-matrix
 
@@ -44,6 +46,7 @@ about:
   summary: Fitting linear models and generalized linear models to large data sets by updating algorithms.
   license_family: GPL
   license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
